@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class CalculateController extends Controller
 {
-
     public function getBodyMass(Request $request){
         if(isset($request->weight) && isset($request->height)){
             $weight = $request->weight;

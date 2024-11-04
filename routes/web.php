@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/get/result', 'CalculateController@getBodyMass'); 
+Route::get('/body/mass', 'App\Http\Controllers\CalculateController@getBodyMass'); 
